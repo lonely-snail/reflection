@@ -1,3 +1,4 @@
-className = com.dianju.reflection.entity.Student
+﻿className = com.dianju.reflection.entity.Student
 methodName = show
 #https://blog.csdn.net/lwl20140904/article/details/80163880的网址
+解决git遇到的问题。
