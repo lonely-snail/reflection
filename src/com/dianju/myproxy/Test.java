@@ -18,7 +18,7 @@ public class Test {
         Man  proxyMan = (Man) Proxy.newProxyInstance(man.getClass().getClassLoader(),new Class[]{Man.class},manHandler);
         System.out.println(proxyMan.getClass().getName());//生成的动态代理类
         proxyMan.findObject();
-        //打印在jvm内存中生成的动态代理类
+        //打印在jvm内存中生成的动态代理类   xfff
         createProxyClassFile(Man.class);
     }
 
